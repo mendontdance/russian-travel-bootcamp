@@ -11,7 +11,6 @@
         margin-right: 48px;
         grid-template-columns: repeat(3, 1fr);
         gap: 14px;
-        object-fit: cover;
     }
 }
 
@@ -24,12 +23,11 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
     .photo-grid {
         margin-left: 16px;
         margin-right: 16px;
         grid-template-columns: repeat(1, 1fr);
         gap: 12px;
-        margin-bottom: 64px;
     }
 }
