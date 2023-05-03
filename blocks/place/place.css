@@ -4,7 +4,6 @@
     margin-bottom: 80px;
     grid-template-columns: 460px auto;
     gap: 48px 40px;
-    overflow: hidden;
 }
 
 .place:last-child {
@@ -34,7 +33,7 @@
     .place {
         margin: 0 auto;
         gap: 0;
-        grid-template-columns: 1fr;
+        grid-template-columns: 320px;
         margin-bottom: 50px;
     }
 }
